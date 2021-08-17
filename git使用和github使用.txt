@@ -1,0 +1,142 @@
+git配置，建立用户和邮箱
+git config --global user.name "Fang"
+git config --global user.email "1256037705@qq.com"
+
+查看全局变量
+git config --list --global
+
+
+git init			初始化git仓库
+git status  		查看文件状态 
+git status -s		查看文件状态(精简)
+git add			跟踪新文件（放入暂存区中）
+git add .			跟踪所有新文件（放入暂存区中）
+git commit -m "提示信息"	提交更新（详细状态）
+git commit -a -m "提示信息"	跳过暂存区，直接存放仓库区（详细状态）
+git checkout -- "文件名称"	撤销提交
+git rm -f "文件名称"		同时移除仓库区和暂存区文件
+git rm --cached "文件名称"	移除仓库区文件
+git log			查看提交历史
+git log -2 --pretty=oneline	查看最近两条提交历史详细文件信息
+git reflog --pretty=oneline	回退指定版本查看历史详细文件信息
+git reset HEAD 文件名称	暂存区取消
+git reset --hard 文件ID	回退当指定版本
+
+
+
+将git项目提交到GitHub中
+git push		提交
+
+生成SSH key
+打开git bash
+ssh-keygen -t rsa -b 4096 -C"1256037705@qq.com"
+连续敲击三次回车键
+
+ssh -T git@github.com	检测ssh是否连接成功
+git clone 克隆地址		克隆远程仓库
+git branch			查看分支
+git branch 名称		创建分支
+git checkout 名称		切换分支
+git checkout -b 名称		创建分支并且切换
+git merge 名称		合并分支（需要到主分支）
+git branch -d 名称		删除分支（需要切换到其他分支 ）
+
+git push -u github仓库名称 本地分支名称		本地分支推送远程仓库（-u第一次推送）
+git remote show github仓库分支名称 		查看github仓库分支
+git checkout github仓库分支名称		下载github仓库分支
+git pull					下载最新的分支
+git push github仓库名称 --delete github仓库分支名称	删除github仓库分支
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

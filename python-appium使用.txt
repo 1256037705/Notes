@@ -1,0 +1,86 @@
+连接夜神模拟器				adb connect 127.0.0.1:62001
+adb devices				检测连接设备
+adb pull 手机路径 本机路径			手机转移到电脑
+adb shell am start -n 包名/入口			启动APP
+adb shell pm clear 包名			清除应用的数据和缓存
+adb shell input tap X Y			坐标点击
+adb shell pm list packages (-s or -3)		-s列出系统apk详情 -3列出第三方apk详情
+adb logcat				打印日志（adb logcat > 本机路径）
+adb shell dumpsys activity | find "mFocusedActivity"	显示APP入口和接口
+aapt dump badging 包			解析APP
+
+
+
+
+driver.close_app()				关闭APP
+driver.quit()				退出手机驱动
+driver.start_activity(app_id，app_activity)		脚本内启动其他APP
+driver.install_app(path)			安装APP
+driver.remove_app((app_id)			卸载APP
+driver.is_app_installed(app_id)			判断是否安装（）
+driver.pish_flie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+错误问题集合：
+adb server version (36) doesn't match this client (41); killing...
+将 sdk 或者你自己安装的 adb 文件夹下的 adb.exe 复制到模拟器的 bin 目录，并重命名为 nox_adb.exe 替换原有的。重新进行链接即可。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

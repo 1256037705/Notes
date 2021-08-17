@@ -1,0 +1,98 @@
+from selenium import  webdriver
+driver = webdriver.xxx()
+
+
+maximize_window()			最大化
+get_window_size()			获取浏览器尺寸
+set_window_size()			设置浏览器尺寸
+get_window_position()		获取浏览器位置
+set_window_position(x,y)		设置浏览器位置
+close()				关闭当前标签/窗口
+clear()				清除文本
+send_keys()			输入
+quit()				关闭所有标签/窗口
+refresh()				刷新页面操作
+back()				回退到之前的页面
+forward()				前进到之后的页面
+current_url			获取当前访问页面url
+title				获取当前浏览器标题
+get_screenshot_as_png()		保存图片
+get_screenshot_as_file(file)		直接保存
+page_source			网页源码
+save_screenshot(path)		截屏
+
+
+
+
+element.text			获取文本内容(既开闭标签之间的内容)
+element.get_attribute(value)		获取属性值(获取element元素的value属性的值）
+element.size			获取元素尺寸
+element.is_dispalyed()		获取元素是否可见
+element.click()			点击操作
+element.clear()			清空输入框(只能操作可以输入文本的元素)
+element.send_keys(data)		输入数据(只能操作可以输入文本的元素)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
