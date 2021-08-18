@@ -47,6 +47,11 @@ git checkout github仓库分支名称		下载github仓库分支
 git pull					下载最新的分支
 git push github仓库名称 --delete github仓库分支名称	删除github仓库分支
 
+从命令行推送现有存储库
+git remote add origin git@github.com:1256037705/transition.git
+git branch -M main 
+git push -u origin main
+
 
 
 
